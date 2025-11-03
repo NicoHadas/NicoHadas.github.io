@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://NicoHadas.github.io/al-folio/sitemap.xml
+Sitemap: https://NicoHadas.github.io/sitemap.xml
