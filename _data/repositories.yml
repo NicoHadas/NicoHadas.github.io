@@ -1,5 +1,4 @@
 github_users:
-
 repo_description_lines_max: 2
 github_repos:
   - NicoHadas/CiliaTracks
@@ -7,4 +6,3 @@ github_repos:
   - NicoHadas/CardiacArrest_Mortality_Predictive_Model
   - NicoHadas/MRI_Brain_Tumor_Classification_CNN
   - NicoHadas/Annovar_Tool
-
