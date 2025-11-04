@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Washington University in St. Louis
+subtitle: <strong>Washington University in St. Louis</strong>
 profile:
   align: right
   image: prof_pic.jpeg
