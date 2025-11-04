@@ -26,5 +26,3 @@ I am  a Bioinformatics Research Tech II in the [Horani Lab](https://horanilab.wu
 My primary research interest is in developing deep learning frameworks to model cellular function and better understand disease pathogenesis.
 
 I have previously researched at the National Research Council of Canada and completed my undergrad in Biochemistry + Bioinformatics at the University of Waterloo.
-
-
