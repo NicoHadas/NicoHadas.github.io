@@ -1,8 +1,6 @@
 github_users:
-  - NicoHadas
 
 repo_description_lines_max: 2
-
 github_repos:
   - NicoHadas/CiliaTracks
   - NicoHadas/sc_Perturbation_Transformer
