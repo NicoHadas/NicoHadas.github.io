@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Washington University in St. Louis</a>.
+subtitle: <a href='#'>[Washington University in St. Louis](https://washu.edu/)</a> 
 profile:
   align: right
   image: prof_pic.jpeg
