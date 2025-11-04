@@ -7,7 +7,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>WashU Medicine<br>St. Louis, MO</p>
+    <p style="text-align: center;">WashU Medicine<br>St. Louis, MO</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 announcements:
