@@ -7,6 +7,8 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>hadasn (at) wustl (dot) edu</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 announcements:
