@@ -7,7 +7,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Washington University School of Medicine</p>
+    <p>WashU Medicine</p>
     <p>St. Louis, MO</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am  a bioinformatics Research Tech II in the [Horani Lab](https://horanilab.wustl.edu/) and a Master of Science student in Biomedical Informatics at WashU.
+I am  a Bioinformatics Research Tech II in the [Horani Lab](https://horanilab.wustl.edu/), where we investigate the complexties of genetic ciliopathies. I am also a Master of Science student in Biomedical Informatics at Washington University School of Medicine in St. Louis. 
 
-My primary research interest is developing deep learning frameworks to model cellular functions and better understand disease pathogenesis. 
+My primary research interest is in developing deep learning frameworks to model cellular functions and better understand disease pathogenesis.
 
 
