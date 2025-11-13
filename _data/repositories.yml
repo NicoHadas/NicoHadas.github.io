@@ -4,6 +4,6 @@ github_repos:
   - NicoHadas/CiliaTracks
   - NicoHadas/sc_Perturbation_Transformer
   - NicoHadas/scAgent
-  - NicoHadas/CardiacArrest_Mortality_Predictive_Model
   - NicoHadas/MRI_Brain_Tumor_Classification_CNN
+  - NicoHadas/CardiacArrest_Mortality_Predictive_Model
   - NicoHadas/Annovar_Tool
