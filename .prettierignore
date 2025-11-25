@@ -14,3 +14,5 @@ _scripts/*
 _data/socials.yml
 _data/repositories.yml
 _config.yml
+CONTRIBUTING.md
+README.md
