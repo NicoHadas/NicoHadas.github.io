@@ -6,7 +6,6 @@
 {% endif %}
 
 {% assign lang = site.lang | split: '-' | first %}
-
 {% case lang %}
   {% when 'pt' %}
     {% assign lang = site.lang %}
@@ -26,21 +25,23 @@
   {% assign max_lines = 2 %}
 {% endif %}
 
-<p style="background: yellow; color: red; word-break: break-all;">
-  DEBUG: https://github-readme-stats-nicohadas-projects.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}
-</p>
+{% comment %} 
+  Nuclear Fix: Capture the URL into a variable and strip all whitespace.
+{% endcomment %}
+{% capture light_img_url %}https://github-readme-stats-nicohadas-projects.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}{% endcapture %}
+{% capture dark_img_url %}https://github-readme-stats-nicohadas-projects.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}{% endcapture %}
 
 <div class="repo p-2 text-center" style="min-width: 400px; max-width: 450px; margin: 0 auto;">
   <a href="https://github.com/{{ include.repository }}">
     <img
       class="only-light"
       alt="{{ include.repository }}"
-      src="https://github-readme-stats-nicohadas-projects.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      src="{{ light_img_url | strip }}"
     >
     <img
       class="only-dark"
       alt="{{ include.repository }}"
-      src="https://github-readme-stats-nicohadas-projects.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      src="{{ dark_img_url | strip }}"
     >
   </a>
 </div>
