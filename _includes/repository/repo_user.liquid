@@ -3,7 +3,6 @@
 {% case lang %}
   {% when 'pt' %}
     {% assign lang = site.lang %}
-
   {% when 'zh' %}
     {% assign lang_last = site.lang | split: '-' | last %}
     {% case lang_last %}
@@ -12,13 +11,9 @@
       {% when 'tw', 'hk', 'mo', 'hant' %}
         {% assign lang = 'zh-tw' %}
     {% endcase %}
-
-    {% comment %} Add a new language using when... if needed {% endcomment %}
-    {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
-    {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
 
-<div class="repo p-2 text-center">
+<div class="repo p-2 text-center" style="min-width: 400px; max-width: 450px; margin: 0 auto;">
   <a href="https://github.com/{{ include.username }}">
     <img
       class="only-light"
