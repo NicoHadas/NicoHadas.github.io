@@ -5,7 +5,7 @@ permalink: /
 subtitle: <strong>Washington University in St. Louis</strong>
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic_new.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>hadasn (at) wustl (dot) edu</p>
