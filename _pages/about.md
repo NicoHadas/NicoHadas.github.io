@@ -21,7 +21,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am  a Bioinformatics Research Tech II in the [Horani Lab](https://horanilab.wustl.edu/), where we explore the complexities of genetic ciliopathies. I am also a Master of Science student in Biomedical Informatics ([DBBS](https://dbbs.wustl.edu/programs/biomedical-informatics-data-science/)) at Washington University School of Medicine in St. Louis. 
+I am  a Bioinformatics Research Tech II in the [Horani Lab](https://horanilab.wustl.edu/), where we explore the complexities of genetic ciliopathies. I am also a Master of Science student in Biomedical Informatics ([DBBS](https://dbbs.wustl.edu/programs/biomedical-informatics-data-science/)) at Washington University School of Medicine in St. Louis where I research in the [Fuhai Li AI lab](https://fuhailiailab.github.io/). 
 
 My primary research interest is in developing deep learning frameworks to model cellular function and better understand disease pathogenesis. I create computational tools and employ machine learning to investigate disease mechanisms using biological and biomedical data. 
 
