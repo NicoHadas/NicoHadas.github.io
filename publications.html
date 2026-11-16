@@ -1,0 +1,20 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+<h1>Publications</h1>
+
+{% assign papers = site.data.publications | where: "type", "paper" %}
+{% assign abstracts = site.data.publications | where: "type", "abstract" %}
+
+<ol class="pubs">
+{% for p in papers %}{% include publication.html p=p %}{% endfor %}
+</ol>
+
+{% if abstracts.size > 0 %}
+<h2>Conference abstracts</h2>
+<ol class="pubs">
+{% for p in abstracts %}{% include publication.html p=p %}{% endfor %}
+</ol>
+{% endif %}

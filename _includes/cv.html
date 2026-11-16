@@ -1,0 +1,23 @@
+{% assign keys = "education,experience" | split: "," %}
+{% for key in keys %}
+<section class="cv">
+  <h2>{{ key | capitalize }}</h2>
+  <ol class="timeline">
+    {% for e in site.data.cv[key] %}
+    <li{% if e.dates contains "present" %} class="current"{% endif %}>
+      <div class="tl-dates">{{ e.dates }}</div>
+      {% if e.logos %}
+      <div class="tl-title">{{ e.title }}</div>
+      <div class="tl-org tl-org-logos">
+        {% for l in e.logos %}<img src="{{ '/assets/img/logos/' | append: l | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endfor %}
+        <span>{{ e.org }}</span>
+      </div>
+      {% else %}
+      <div class="tl-title">{{ e.title }} <span class="tl-org">· {{ e.org }}</span></div>
+      {% endif %}
+      {% for d in e.details %}<div class="tl-detail">{{ d }}</div>{% endfor %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endfor %}

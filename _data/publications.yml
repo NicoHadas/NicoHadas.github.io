@@ -1,0 +1,64 @@
+# Publications, newest first.
+# Fields: title, authors, venue, year, links (list of label/url), type (paper | abstract)
+# Your name is bolded automatically wherever "Nicholas Hadas" appears in authors.
+
+- title: Machine learning analysis of cilia-driven particle transport distinguishes primary ciliary dyskinesia from normal cilia
+  authors: Nicholas Hadas, Huihui Xu, Shambhawee Neupane, Wang Kyaw Twan, Ahmed Elgamal, Andrew Lunel, Moe R. Mahjoub, Amjad Horani
+  venue: Communications Biology
+  year: 2026
+  type: paper
+  links:
+    - label: Publication
+      url: https://www.nature.com/articles/s42003-026-11149-0
+    - label: PDF
+      url: https://www.nature.com/articles/s42003-026-11149-0_reference.pdf
+    - label: bioRxiv
+      url: https://www.biorxiv.org/content/10.1101/2025.11.02.686130
+    - label: Code
+      url: https://github.com/NicoHadas/CiliaTracks
+
+- title: Comparative single-cell transcriptomics uncovers shared and distinct molecular signatures in cystic fibrosis and primary ciliary dyskinesia
+  authors: Nicholas Hadas, Huihui Xu, Wang Kyaw Twan, Shambhawee Neupane, Ahmed Elgamal, Jeffrey R. Koenitzer, Amjad Horani
+  venue: bioRxiv
+  year: 2025
+  type: paper
+  links:
+    - label: bioRxiv
+      url: https://www.biorxiv.org/content/10.1101/2025.11.17.688876v1
+    - label: PDF
+      url: https://www.biorxiv.org/content/10.1101/2025.11.17.688876v1.full.pdf
+
+- title: "OmniCellTOSG: The first cell text-omic signaling graphs dataset for graph language foundation modeling"
+  authors: Heming Zhang, Tim Xu, Dekang Cao, Shunning Liang, Guntaas Shergill, Nicholas Hadas, Lars Schimmelpfennig, Levi Kaster, Di Huang, S. Peter Goedegebuure, David DeNardo, Li Ding, Ryan Fields, J. Philip Miller, Pirooz Eghtesady, Carlos Cruchaga, William Buchser, Jonathan Cooper, Marco Sardiello, Yixin Chen, Michael Province, Philip Payne, Fuhai Li
+  venue: arXiv preprint
+  year: 2025
+  type: paper
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2504.02148
+    - label: PDF
+      url: https://arxiv.org/pdf/2504.02148
+    - label: Code
+      url: https://github.com/FuhaiLiAiLab/OmniCellTOSG
+    - label: Dataset
+      url: https://huggingface.co/datasets/FuhaiLiAiLab/OmniCellTOSG_Dataset
+
+- title: Transcriptional analysis of primary ciliary dyskinesia airway cells reveals a dedicated cilia glutathione pathway
+  authors: Jeffrey R. Koenitzer, Deepesh Kumar Gupta, Wang Kyaw Twan, Huihui Xu, Nicholas Hadas, Finn J. Hawkins, Mary Lou Beerman, Gervette M. Penny, Nathan T. Wamsley, Andrew Berical, Michael B. Major, Susan K. Dutcher, Steven L. Brody, Amjad Horani
+  venue: JCI Insight
+  year: 2024
+  type: paper
+  links:
+    - label: Publication
+      url: https://insight.jci.org/articles/view/180198
+    - label: PDF
+      url: https://insight.jci.org/articles/view/180198/pdf
+
+- title: Contribution of airway microbiome to epithelial cell responses in primary ciliary dyskinesia
+  authors: Ahmed Elgamal, Nicholas Hadas, Wang Kyaw Twan, Huihui Xu, Amjad Horani
+  venue: American Journal of Respiratory and Critical Care Medicine (ATS 2025 abstract)
+  year: 2025
+  type: abstract
+  links:
+    - label: Abstract
+      url: https://www.atsjournals.org/doi/abs/10.1164/ajrccm.2025.211.Abstracts.A7598

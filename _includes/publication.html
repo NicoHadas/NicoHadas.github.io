@@ -1,0 +1,9 @@
+{% assign p = include.p %}
+<li class="pub">
+  <p class="pub-title">{{ p.title }}</p>
+  <p class="pub-authors">{{ p.authors | replace: 'Nicholas Hadas', '<span class="me">Nicholas Hadas</span>' }}</p>
+  <p class="pub-venue"><em>{{ p.venue }}</em>, {{ p.year }}</p>
+  {% if p.links %}
+  <p class="pub-links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+  {% endif %}
+</li>
