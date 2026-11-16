@@ -41,7 +41,7 @@ It has eigenvectors $v_1 = (1, 1)/\sqrt{2}$, $v_2 = (1, -1)/\sqrt{2}$ with corre
 
 Along direction $v_1$, matrix $A$ stretches space by a factor of 3 and along $v_2$, it leaves lengths unchanged. The eigenvectors simply point in directions where the matrix acts as pure scaling.
 
-We can also visualize this graphically. Applying $A$ to a unit circle, with a set of vectors of length 1 for every possible direction, transforms it to an ellipse. Eigenvectors $v_1$ and $v_2$ are only stretched by their eigenvalues, while  other directions are also rotated.
+We can also visualize this graphically. Applying $A$ to a unit circle, with a set of vectors of length 1 for every possible direction, transforms it to an ellipse. Eigenvectors $v_1$ and $v_2$ are only stretched by their eigenvalues, while other directions are also rotated.
 
 ![A maps the unit circle to an ellipse whose axes lie along the eigenvectors.](/assets/img/eigendecomposition-geometry.png)
 *Figure 1: Matrix $A$ maps the unit circle to an ellipse. Its axes lie along the eigenvectors $v_1$ and $v_2$, scaled by $\lambda_1 = 3$ and $\lambda_2 = 1$. The dashed grey vectors are not eigenvectors, so their directions do in fact change.*
@@ -62,7 +62,7 @@ $$
 \det(A - \lambda I) = 0. \tag{4}
 $$
 
-This is the **characteristic equation** and it's roots are the eigenvalues of $A$. For our matrix,
+This is the **characteristic equation** and its roots are the eigenvalues of $A$. For our matrix,
 
 $$
 \det(A - \lambda I) = \det\begin{bmatrix} 2-\lambda & 1 \\ 1 & 2-\lambda \end{bmatrix} = (2-\lambda)^2 - 1 = (\lambda - 3)(\lambda - 1) = 0,
