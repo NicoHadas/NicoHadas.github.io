@@ -27,7 +27,7 @@ Like me, you probably recall these definitions from an introductory linear algeb
 
 Let's first glance at eigendecomposition from a geometric perspective.
 
-## Geometric Intuition
+## Geometric intuition
 
 A matrix is often described as a linear transformation of a vector space. Matrix $A$ takes every vector $x$ and sends it to $Ax$. $x$ can be stretched, rotated and sheared all at once. As a consequence, the magnitude and direction of $x$ generally change. However, eigenvectors are special in that their direction remains unchanged (or reversed) after transformation. They are only scaled by their matching eigenvalue, as defined in Eq. (2). 
 
@@ -106,7 +106,7 @@ where the $\det(Q)$ and $\det(Q^{-1}) = 1/\det(Q)$ factors cancel, and the deter
 
 Alright, well I should probably mention that the example we have been following is a rather special case, a spectral one.
 
-## Spectral Decomposition
+## Spectral decomposition
 
 In the introduction, I noted that for spectral decomposition, the factorizable matrix must also be normal. Spectral decomposition is eigendecomposition for the nicest class of matrices. The **spectral theorem** says that for a real symmetric $A$: all eigenvalues are real and the eigenvectors can be chosen orthonormal (repeated-eigenvalue case allows choice). So $Q$ is orthogonal and $Q^{-1} = Q^\top$. This gives:
 
